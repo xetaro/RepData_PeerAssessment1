@@ -1,16 +1,19 @@
 ---
-title: "Reproducible researche / Course project 1 / Week 2"
+title: "Reproducible researche /Peer Assessment 1 "
 author: "xetaro"
 date: "28 juillet 2016"
-output: html_document
+output: html_document:
+keep_md: true--
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 ```{r}
 Sys.setlocale("LC_TIME", "English")
+
 ```
+## Loading and preprocessing the data
+
 1.Code for reading in the dataset and/or processing the data 
 
  Unzip and load the data 
@@ -36,6 +39,7 @@ Summary of data set:
 ```{r}
 summary(activity)
 ```
+## What is mean total number of steps taken per day?
 
 Calculate the total number of steps taken per day:
         
@@ -49,6 +53,8 @@ sum(activity[!is.na(activity$steps),]$steps)
 ```{r}
 hist(stepsPerDay$steps, main = "Total steps by day", xlab = "day", col = "green")
 ```
+## What is the average daily activity pattern?
+
 3.Mean and median number of steps taken each day
 
 ```{r}
@@ -74,6 +80,8 @@ avgStepsPerInterval[avgStepsPerInterval$steps==max(avgStepsPerInterval$steps),]
 ```
 
 Interval 835 with approx. 206 steps contians the maximum number of steps.
+
+## Imputing missing values
 
  6. Code to describe and show a strategy for imputing missing data
 
@@ -126,6 +134,8 @@ median(stepsPerDay$steps)
 ```
  Mean does not change, but the median does a little bit (1 step), but the histogram shows, 
  that the data is more centered.
+ 
+## Are there differences in activity patterns between weekdays and weekends?
 
 8. Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
 
