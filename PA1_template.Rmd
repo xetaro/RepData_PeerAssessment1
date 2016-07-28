@@ -1,6 +1,6 @@
 ---
 title: "Reproducible researche / Course project 1 / Week 2"
-author: "TK"
+author: "xetaro"
 date: "28 juillet 2016"
 output: html_document
 ---
