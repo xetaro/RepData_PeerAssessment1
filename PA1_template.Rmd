@@ -83,7 +83,7 @@ Interval 835 with approx. 206 steps contians the maximum number of steps.
 
 ## Imputing missing values
 
-6. Code to describe and show a strategy for imputing missing data
+Code to describe and show a strategy for imputing missing data
 
  Calculate and report the total number of missing values in the dataset
  (i.e. the total number of rows with NAs):
@@ -113,7 +113,7 @@ names(activityFilled) <- c("interval", "steps", "date")
 
 head(activityFilled)
 ```
-7. Histogram of the total number of steps taken each day after missing values are imputed
+Histogram of the total number of steps taken each day after missing values are imputed
 
 ```{r}
 stepsPerDayFilled <- aggregate(steps ~ date, activityFilled, sum)
