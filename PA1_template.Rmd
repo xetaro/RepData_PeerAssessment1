@@ -137,7 +137,7 @@ median(stepsPerDay$steps)
  
 ## Are there differences in activity patterns between weekdays and weekends?
 
-8. Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
+ Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
 
  Create a new factor variable in the dataset with two levels - "weekday" and "weekend" 
  indicating whether a given date is a weekday or weekend day.
