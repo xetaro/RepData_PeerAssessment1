@@ -83,11 +83,11 @@ Interval 835 with approx. 206 steps contians the maximum number of steps.
 
 ## Imputing missing values
 
- 6. Code to describe and show a strategy for imputing missing data
+6. Code to describe and show a strategy for imputing missing data
 
  Calculate and report the total number of missing values in the dataset
  (i.e. the total number of rows with NAs):
-        
+
 ```{r}
 table(is.na(activity$steps))
  
