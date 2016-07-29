@@ -46,6 +46,8 @@ Summary of data set:
     ##  3rd Qu.: 12.00   3rd Qu.:2012-11-15   3rd Qu.:1766.2  
     ##  Max.   :806.00   Max.   :2012-11-30   Max.   :2355.0  
     ##  NA's   :2304
+    
+## What is mean total number of steps taken per day?
 
 Calculate the total number of steps taken per day:
 
