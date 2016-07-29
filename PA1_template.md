@@ -101,9 +101,11 @@ steps
     ## 104      835 206.1698
 
 Interval 835 with approx. 206 steps contians the maximum number of
-steps.
+steps. 
 
-1.  Code to describe and show a strategy for imputing missing data
+## Imputing missing values
+
+  Code to describe and show a strategy for imputing missing data
 
 Calculate and report the total number of missing values in the dataset
 (i.e. the total number of rows with NAs):
@@ -158,7 +160,7 @@ Strategy for filling the NA's: mean for that 5-minute interval
     ## 5        0 0.000000 2012-11-24
     ## 6        0 0.000000 2012-11-15
 
-1.  Histogram of the total number of steps taken each day after missing
+  Histogram of the total number of steps taken each day after missing
     values are imputed
 
 <!-- -->
@@ -191,7 +193,7 @@ Data for comparison from earlier:
 Mean does not change, but the median does a little bit (1 step), but the
 histogram shows, that the data is more centered.
 
-1.  Panel plot comparing the average number of steps taken per 5-minute
+  Panel plot comparing the average number of steps taken per 5-minute
     interval across weekdays and weekends
 
 Create a new factor variable in the dataset with two levels - "weekday"
