@@ -67,6 +67,8 @@ Calculate the total number of steps taken per day:
 ![](PA1_template_md_file__files/figure-markdown_strict/unnamed-chunk-7-1.png)
 <https://github.com/xetaro/RepData_PeerAssessment1/blob/master/plot_1.png>
 
+## What is the average daily activity pattern?
+
 3.Mean and median number of steps taken each day
 
     mean(stepsPerDay$steps)
