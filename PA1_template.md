@@ -193,8 +193,10 @@ Data for comparison from earlier:
 Mean does not change, but the median does a little bit (1 step), but the
 histogram shows, that the data is more centered.
 
-  Panel plot comparing the average number of steps taken per 5-minute
-    interval across weekdays and weekends
+## Are there differences in activity patterns between weekdays and weekends?
+
+Panel plot comparing the average number of steps taken per 5-minute
+interval across weekdays and weekends
 
 Create a new factor variable in the dataset with two levels - "weekday"
 and "weekend" indicating whether a given date is a weekday or weekend
