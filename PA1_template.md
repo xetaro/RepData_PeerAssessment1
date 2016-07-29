@@ -64,8 +64,8 @@ Calculate the total number of steps taken per day:
 
     hist(stepsPerDay$steps, main = "Total steps by day", xlab = "day", col = "green")
 
-![](PA1_template_md_file__files/figure-markdown_strict/unnamed-chunk-7-1.png)
-<https://github.com/xetaro/RepData_PeerAssessment1/blob/master/plot_1.png>
+![](https://github.com/xetaro/RepData_PeerAssessment1/blob/master/plot_1.png)
+
 
 ## What is the average daily activity pattern?
 
@@ -89,8 +89,8 @@ average number of steps taken, averaged across all days (y-axis)
     plot(avgStepsPerInterval, type = "l", xlab = "5-min interval", 
         ylab = "Steps", main = "Average number of steps taken",col= "red")
 
-![](PA1_template_md_file__files/figure-markdown_strict/unnamed-chunk-9-1.png)
-<https://github.com/xetaro/RepData_PeerAssessment1/blob/master/plot_2.png>
+![](https://github.com/xetaro/RepData_PeerAssessment1/blob/master/plot_2.png)
+
 
 5.The 5-minute interval that, on average, contains the maximum number of
 steps
@@ -169,8 +169,8 @@ Strategy for filling the NA's: mean for that 5-minute interval
 
     hist(stepsPerDayFilled$steps, main = "Total steps by day", xlab = "day", col = "orange")
 
-![](PA1_template_md_file__files/figure-markdown_strict/unnamed-chunk-14-1.png)
-<https://github.com/xetaro/RepData_PeerAssessment1/blob/master/plot_3.png>
+![](https://github.com/xetaro/RepData_PeerAssessment1/blob/master/plot_3.png)
+
 
     mean(stepsPerDayFilled$steps)
 
@@ -230,8 +230,8 @@ averaged across all weekday days or weekend days (y-axis)
 
     xyplot(steps ~ interval | factor(wd), data=avgStepsPerIntervalWithWeekday, type = "l", layout=c(1,2))
 
-![](PA1_template_md_file__files/figure-markdown_strict/unnamed-chunk-18-1.png)
-<https://github.com/xetaro/RepData_PeerAssessment1/blob/master/plot_4.png>
+![](https://github.com/xetaro/RepData_PeerAssessment1/blob/master/plot_4.png)
+
 
 We can see at the graph above that activity on the weekday has the
 greatest peak from all steps intervals. But, we can see too that
